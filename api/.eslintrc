@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "rules": {
+    "prettier/prettier": 0,
+    "react/jsx-no-bind": 0,
+    "no-constant-condition": 0,
+    "new-cap": 0,
+    "default-case": 0,
+    "react/jsx-first-prop-new-line": 0,
+    "import/no-unresolved": 0,
+    "newline-per-chained-call": 0,
+    "global-require": 0,
+    "no-underscore-dangle": 0,
+    "no-console": 0,
+  }
+}
