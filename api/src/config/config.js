@@ -1,11 +1,11 @@
 module.exports = {
-  database: 'mongodb://YOUR_DB',
+  database: 'mongodb://localhost:27017/testingChat/db',
   server: {
     port: 8888,
-    host: 'YOUR_HOST',
+    host: '192.168.1.119',
   },
   jwt: {
-    secret: 'YOUR_SECRET',
+    secret: 'NeverDoIt',
     expiresIn: '1d',
   },
 };
