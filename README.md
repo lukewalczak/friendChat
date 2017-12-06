@@ -5,7 +5,7 @@ Simple chat to communicate with friends
 
 ## Setup
 
-Customize your data in [config file](https://github.com/lukewalczak/friendChat/tree/master/api/src/config/config.js)
+Customize your data in [config file](https://github.com/lukewalczak/friendChat/tree/master/api/src/config.js)
 
 ## Installation
 

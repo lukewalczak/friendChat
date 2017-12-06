@@ -7,7 +7,7 @@ import { GiftedChat } from 'react-native-gifted-chat';
 
 import { loadMessages, sendMessage } from '../actions/loadMessages';
 
-import config from '../../api/src/config/config';
+import config from '../../api/src/config';
 
 import GoBack from '../components/GoBackButton';
 import type { User, Message, Friend } from '../types/types';

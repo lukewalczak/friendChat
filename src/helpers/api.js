@@ -1,7 +1,7 @@
 /* @flow */
 
 import { AsyncStorage } from 'react-native';
-import config from '../../api/src/config/config';
+import config from '../../api/src/config';
 
 const host = config.server.host;
 const port = config.server.port;

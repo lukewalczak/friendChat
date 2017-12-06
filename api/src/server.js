@@ -4,7 +4,7 @@ import User from './db/models/user';
 
 const Hapi = require('hapi');
 const mongoose = require('mongoose');
-const config = require('./config/config');
+const config = require('./config');
 const Joi = require('joi');
 
 const server = new Hapi.Server();

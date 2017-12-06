@@ -3,7 +3,7 @@ import Boom from 'boom';
 import JWT from 'jsonwebtoken';
 
 import User from '../db/models/user';
-import config from '../config/config';
+import config from '../config';
 import sanitizeUser from '../helpers/sanitizeUser';
 
 const secret = config.jwt.secret;

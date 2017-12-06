@@ -2,7 +2,7 @@ import JWT from 'jsonwebtoken';
 import Boom from 'boom';
 import bcrypt from 'bcrypt';
 import User from '../db/models/user';
-import config from '../config/config';
+import config from '../config';
 import sanitizeUser from '../helpers/sanitizeUser';
 
 const secret = config.jwt.secret;
